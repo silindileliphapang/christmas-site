@@ -97,8 +97,9 @@ footer p {
 }
 
 .santa {
-   width: clamp(150px, 40vw, 250px);
+   /* width: clamp(150px, 40vw, 250px); */
     margin: 15px 0;
+    width: 200px;
 }
 
 button {
