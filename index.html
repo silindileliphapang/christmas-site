@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Christmas Greeting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="snow"></div>
+
+    <div id="welcome" class="screen">
+        <h1 class="glow">🎄 Welcome 🎄</h1>
+        <img src="media/santa.gif" alt="Dancing Santa" class="santa">
+
+        <button onclick="ringBell()">🔔 Ring the Bell</button>
+    </div>
+
+    <div id="message" class="screen hidden" >
+        <h1 class="glow">🎁 Merry Christmas 🎁</h1>
+        <p id="christmasMessage">
+           Merry Christmas to you and your family! <br>
+          And though we are apart, you are in my heart this Christmas.<br> 
+          I hope you receive one blessing after another this coming year.
+           
+        </p>
+        <button onclick="speakMessage()">🔊 Hear Message Again </button>
+
+    </div>
+    <audio id="music" src="media/music.mp3" loop></audio>
+    <audio id="bellSound" src="media/bell.mp3"></audio>
+
+    <script src="script.js"></script>
+
+<footer>
+    <p class="glow">© <span id="year"></span> SilindileLiphapang. All rights reserved.</p>
+    <p>Designed with ❤️ for Christmas</p>
+</footer>
+
+
+</body>
+
+</html>
